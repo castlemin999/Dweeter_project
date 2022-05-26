@@ -2,10 +2,10 @@ export default class TweetService {
   tweets = [
     {
       id: 1,
-      text: '드림코딩에서 강의 들으면 너무 좋으다',
-      createdAt: '2021-05-09T04:20:57.000Z',
-      name: 'Bob',
-      username: 'bob',
+      text: '아 집에 가고 싶다...',
+      createdAt: '2022-05-26T04:20:57.000Z',
+      name: 'Jake',
+      username: 'jake',
       url: 'https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-1.png',
     },
   ];
@@ -20,8 +20,8 @@ export default class TweetService {
     const tweet = {
       id: Date.now(),
       createdAt: new Date(),
-      name: 'Ellie',
-      username: 'ellie',
+      name: 'Sungmin',
+      username: 'sungmin',
       text,
     };
     this.tweets.push(tweet);
